@@ -8,6 +8,8 @@ def nyc_pigeon_organizer(data)
       pigeons[names][key] = inner_key
     end
   end
+
+  puts pigeons
 end
 
 nyc_pigeon_organizer(pigeon_data = {
