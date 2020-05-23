@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
 
   data.each_with_object({}) do |(key, value), final_array|
     value.each do |x|
-      pigeons[x][key][x]
+      pigeons[x][key] = x
     end
   end
 end
