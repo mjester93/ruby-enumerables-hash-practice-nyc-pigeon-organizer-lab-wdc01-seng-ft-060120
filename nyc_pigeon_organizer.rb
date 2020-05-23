@@ -4,8 +4,10 @@ def nyc_pigeon_organizer(data)
   pigeons = {}
 
   data.each do |x|
-    x.each do |key, value|
-      puts data[key]
+    x.each do |key|
+      data[key].each do |value|
+        puts value
+      end
     end
   end
 end
