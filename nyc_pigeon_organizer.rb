@@ -3,13 +3,10 @@ def nyc_pigeon_organizer(data)
 
   pigeons = {}
 
-  data.each do |x|
-    x.each do |key|
-      data[key].each do |value|
-        puts value
-      end
-    end
+  data.each_with_object({}) do |(key, value), final_array|
+    final_array
   end
+
 end
 
 nyc_pigeon_organizer(pigeon_data = {
