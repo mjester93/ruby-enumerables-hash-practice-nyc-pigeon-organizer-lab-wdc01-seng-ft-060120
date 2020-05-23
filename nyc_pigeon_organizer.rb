@@ -4,7 +4,9 @@ def nyc_pigeon_organizer(data)
   pigeons = {}
 
   data.each_with_object({}) do |(key, value), final_array|
-    puts value
+    value.each do |x|
+      puts x
+    end
   end
 end
 
