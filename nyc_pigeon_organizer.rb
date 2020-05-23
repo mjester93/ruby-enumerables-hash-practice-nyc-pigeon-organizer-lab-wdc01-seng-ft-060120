@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
 
   pigeons = {}
 
-  while data.each do |x|
+  data.each do |x|
     puts x
   end
 end
