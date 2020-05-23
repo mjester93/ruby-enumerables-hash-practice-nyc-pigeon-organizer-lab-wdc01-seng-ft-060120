@@ -8,8 +8,6 @@ def nyc_pigeon_organizer(data)
       puts x
     end
   end
-
-  puts pigeons
 end
 
 nyc_pigeon_organizer(pigeon_data = {
