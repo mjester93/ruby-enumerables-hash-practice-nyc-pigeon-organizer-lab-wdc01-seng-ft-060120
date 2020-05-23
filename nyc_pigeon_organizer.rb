@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
 
   data.each do |x|
     x.each do |key, value|
-      puts key, x[key]
+      puts key, x.key
     end
   end
 end
