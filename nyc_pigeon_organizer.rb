@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
     final_array
   end
 
+  return final_array
 end
 
 nyc_pigeon_organizer(pigeon_data = {
